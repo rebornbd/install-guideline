@@ -1,4 +1,4 @@
-# Install Django
+# Install Django - (windows)
 
 
 sort intro:
