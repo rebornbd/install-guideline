@@ -41,6 +41,6 @@ sort intro:
 ==========
 			01) cd myapp  ||  (go-to-project-folder)
 			
-			op-01) python manage.py runserver       ||  (default-port | 8100)
+			op-01) python manage.py runserver       ||  (default-port | 8000)
 			op-02) python manage.py runserver 8200  ||  (mension-port)
 			
