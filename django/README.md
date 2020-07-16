@@ -11,8 +11,8 @@ sort intro:
 06) cd myapp
 07) python manage.py runserver
 
-vs code for django:
-===================
+vs code configuration for django:
+=================================
 01) create folder: .vscode
 02) goto .vscode
 03) create a file: settings.json (add below code)
