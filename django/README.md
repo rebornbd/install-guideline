@@ -16,7 +16,9 @@ vs code for django:
 01) create folder: .vscode
 02) goto .vscode
 03) create a file: settings.json (add below code)
+
 	Like: { "python.pythonPath": django-path }
+	
 	Exap: { "python.pythonPath": "/home/username/Desktop/Python/myenvs/dJango2/bin" }
 
 
