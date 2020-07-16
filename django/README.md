@@ -19,7 +19,7 @@ vs code configuration for django:
 
 	Like: { "python.pythonPath": django-path }
 	
-	Exap: { "python.pythonPath": "/home/username/Desktop/Python/myenvs/dJango2/bin" }
+	Example: { "python.pythonPath": "/home/username/Desktop/Python/myenvs/dJango2/bin" }
 
 
 1'st step: (install python)
