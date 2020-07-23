@@ -95,7 +95,7 @@ app.listen(port, () => console.log(`Listening on port ${port}...`));
 ```
 
 # JS data validation library
-```
+```javascript
 npm install @hapi/joi
 
 const Joi = require('@hapi/joi');
