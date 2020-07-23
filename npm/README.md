@@ -94,3 +94,16 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
 ```
 
+# JS data validation library
+```
+npm install @hapi/joi
+
+const Joi = require('@hapi/joi');
+const schema = Joi.object({ username: Joi.string().min(3).max(30).required() });
+const result = schema.validate({ username: 'abc' });
+
+if (result.error) {
+    res.send(result.error);
+    return;
+}
+```
