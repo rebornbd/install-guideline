@@ -100,7 +100,7 @@ npm install @hapi/joi
 
 const Joi = require('@hapi/joi');
 const schema = Joi.object({ username: Joi.string().min(3).max(30).required() });
-const result = schema.validate({ username: 'abc' });
+const result = schema.validate(req.body);
 
 if (result.error) {
     res.send(result.error);
