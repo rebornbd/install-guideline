@@ -80,7 +80,7 @@ patch: change patch version if we fixed a bug
 ```
 
 # automatically restart server & change port:
-```
+```javascript
 npm i -g nodemon
 
 then run:
