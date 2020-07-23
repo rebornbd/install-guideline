@@ -1,7 +1,7 @@
 # npm commands:
 -------------
 
-```
+```javascript
 npm init
 npm init --yes
 
