@@ -1,7 +1,7 @@
-npm commands:
+# npm commands:
 -------------
 
-
+```
 npm init
 npm init --yes
 
@@ -30,11 +30,12 @@ npm view <package-name> versions
 
 npm outdated
 npm -g outdated
-
+```
 
 HOW TO  CREATE  AND
 PUBLISH NPM PACKAGE
 -------------------
+```
 mkdir demo-lib
 cd demo-lib
 npm init
@@ -51,17 +52,19 @@ demo-lib
 npm adduser
 npm login
 npm publish
-
+```
 
 NPM UPDATE VERSION
 ------------------
+```
 npm version major
 npm version minor
 npm version patch
-
+```
 
 EXTRA INFORMATIONS: VERSION
 ---------------------------
+```
 semantic versioning: major.minor.patch
 version: 4.3.2
          [major.minor.patch]
@@ -74,4 +77,4 @@ patch: change patch version if we fixed a bug
 ^4.2.5: 4.x.x (update: minor & patch)
 ~4.2.5: 4.2.x (update: patch)
  4.2.5: (exactly same version, no update)
-
+```
