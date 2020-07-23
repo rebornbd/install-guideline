@@ -85,5 +85,12 @@ npm i -g nodemon
 
 then run:
 nodemon app.js
+
+change port:
+  (windows): set PORT=5000
+(mac/linux): export PORT=5000
+
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Listening on port ${port}...`));
 ```
 
