@@ -78,3 +78,12 @@ patch: change patch version if we fixed a bug
 ~4.2.5: 4.2.x (update: patch)
  4.2.5: (exactly same version, no update)
 ```
+
+# automatically restart server:
+```
+npm i -g nodemon
+
+then run:
+nodemon app.js
+```
+
