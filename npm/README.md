@@ -79,7 +79,7 @@ patch: change patch version if we fixed a bug
  4.2.5: (exactly same version, no update)
 ```
 
-# automatically restart server:
+# automatically restart server & change port:
 ```
 npm i -g nodemon
 
