@@ -128,3 +128,8 @@ open heroku app
 heroku open
 ```
 
+heroku django app createsuperuser:
+```
+heroku run python manage.py createsuperuser
+```
+
