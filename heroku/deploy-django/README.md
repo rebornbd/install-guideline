@@ -105,7 +105,7 @@ STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static'), ]
 django_heroku.settings(locals())
 ```
 
-#### step-03:
+#### step-04:
 
 create heroku app:
 ```
