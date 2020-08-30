@@ -41,7 +41,7 @@ vs code configuration for django:
 			
 4'th step: (install django)
 ==========
-			01) pip install django  ||  (pip install django==2.0 | specific-version)
+			01) pip install django  ||  (pip install django==2.2 | specific-version)
 			
 5'th step: (create project)
 ==========
