@@ -87,6 +87,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DEBUG = False
 ALLOWED_HOSTS = [ 'heroku_appname.herokuapp.com', '127.0.0.1', 'localhost']
+
 ................
 ................
 
@@ -104,4 +105,26 @@ STATICFILES_DIRS = [ os.path.join(BASE_DIR, 'static'), ]
 django_heroku.settings(locals())
 ```
 
+#### step-03:
+
+create heroku app:
+```
+heroku login
+heroku create app_name
+```
+
+push to heroku:
+```
+git init
+git add .
+git commit -am "first commit"
+
+git push heroku master
+heroku run python manage.py migrate
+```
+
+open heroku app
+```
+heroku open
+```
 
