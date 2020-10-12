@@ -34,7 +34,7 @@ vs code configuration for django:
 					pip install virtualenv  ||  (globally-install-virtualenv)
 					virtualenv myvenv
 					
-3'nd step: (activate virtual environment)
+3'rd step: (activate virtual environment)
 ==========
 			01) myvenv\Scripts\activate  ||  (E:\Python\myvenv\Scripts\activate)
 			
