@@ -48,6 +48,9 @@ FLUSH PRIVILEGES;
 
 SELECT user,authentication_string,plugin,host FROM mysql.user;
 exit
+
+# mysql root login (here username: root)
+mysql -u root -p
 ```
 
 #### apache dir.conf:
