@@ -23,10 +23,6 @@ apt install php libapache2-mod-php php-mysql
 # allow http & https
 ufw allow in "Apache Full"
 
-
-# show list view
-ufw app list
-
 # specific view
 ufw app info "Apache Full"
 
@@ -34,9 +30,9 @@ ufw app info "Apache Full"
 ufw allow in "Apache Full"
 ufw allow 8096
 
+ufw status
 ufw enable
 ufw disable
-ufw status
 ```
 
 #### mysql set root user password
