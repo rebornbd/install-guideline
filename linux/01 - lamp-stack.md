@@ -36,6 +36,7 @@ ufw allow 8096
 
 ufw enable
 ufw disable
+ufw status
 ```
 
 #### mysql set root user password
