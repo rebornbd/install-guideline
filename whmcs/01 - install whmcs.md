@@ -47,6 +47,6 @@ rm -r install
 
 #### bonus
 ```bash
-
+apt install php-imap
 ```
 
