@@ -26,3 +26,27 @@ zend_extension = "/usr/local/ioncube/ioncube_loader_lin_7.2.so"
 systemctl restart apache2
 ```
 
+#### 1'st extension:
+```bash
+apt install php-curl
+apt install php-gd
+apt install php-xml
+```
+
+#### read/write permissions
+```bash
+touch configuration.php
+chmod 777 configuration.php
+```
+
+#### delete install folder
+```bash
+# go to whmcs installation folder
+rm -r install
+```
+
+#### bonus
+```bash
+
+```
+
