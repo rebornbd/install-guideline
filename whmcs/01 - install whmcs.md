@@ -47,6 +47,10 @@ rm -r install
 
 #### bonus
 ```bash
-apt install php-imap
+apt-get install php-imap
+apt-get install php-mbstring
+apt-get install php-soap
+apt-get install php-xmlrpc
+apt-get install php-zip
 ```
 
