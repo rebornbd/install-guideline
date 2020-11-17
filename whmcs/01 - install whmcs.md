@@ -20,7 +20,7 @@ tar xzf ioncube_loaders_lin_x86-64.tar.gz -C /usr/local
 # for php with apache
 nano /etc/php/7.2/apache/php.ini  # nano /etc/php/__version__/apache/php.ini
 
-# add below code (line number: 30)
+# add below code (line number: 30) in php.ini(/etc/php/7.2/apache/php.ini)
 zend_extension = "/usr/local/ioncube/ioncube_loader_lin_7.2.so"
 
 systemctl restart apache2
