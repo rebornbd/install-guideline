@@ -32,8 +32,15 @@ pyenv install 3.7.9
 pyenv install 3.8.6
 
 pyenv versions
+python --version
 
 # set
+pyenv global 3.8.6
 
+pyenv versions
+python --version
+
+# uninstall
+pyenv uninstall 3.7.9
 ```
 
