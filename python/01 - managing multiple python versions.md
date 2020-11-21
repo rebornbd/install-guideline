@@ -44,3 +44,26 @@ python --version
 pyenv uninstall 3.7.9
 ```
 
+#### create | activate | deactivate virtual environments
+```python
+# create
+pyenv virtualenv 3.8.6 my_env
+
+# activate
+pyenv activate my_env
+
+# deactivate
+pyenv deactivate my_env
+```
+
+### bonus
+```python
+# details (which python | which pip)
+pyenv which python
+pyenv which pip
+
+# local | global
+pyenv local my_env
+pyenv global my_env
+```
+
