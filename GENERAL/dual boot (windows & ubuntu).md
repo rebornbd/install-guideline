@@ -13,7 +13,7 @@ case 01) if (windows & ubuntu is in same DRIVE)
 /dev/sbad
   /dev/sbad1 ntfs
   /dev/sbad2 ntfs
-===============================================
+
 boot loader: /dev/sbd
 
 
@@ -29,7 +29,7 @@ case 02) if (windows & ubuntu is different DRIVE)
   /dev/sbad2 ntfs
   /dev/sbad3 swap
   /dev/sbad4 ext4 /
-===============================================
+
 boot loader: /dev/sbad4
 AND FOLLOW: step 02 (if don't show os select option)
 ```
